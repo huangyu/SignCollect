@@ -2,7 +2,8 @@
 //获取应用实例
 var app = getApp()
 var Bmob = require('../../utils/bmob.js')
-Bmob.initialize("473cc46a414488eb097ad03bcf7b9286", "b89dfb7f93a90b5ba9201bcd692e7a70")
+// 使用自己的Bmobid替换如下
+Bmob.initialize("", "")
 Page({
   data: {
     disabled: false,
