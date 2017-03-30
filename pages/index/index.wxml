@@ -1,0 +1,17 @@
+
+<!--index.wxml-->
+<view class="container">
+  <text class="inputHint">声明：此程序仅用于收集客户电子签名</text>
+  <form class="form" bindsubmit="submit" bindreset="clear">
+    <view class="container">
+      <text class="inputTitle">警号：</text>
+      <input class="inputText" name="no" focus="true" type="number" />
+      <text class="inputTitle">用户名：</text>
+      <input class="inputText" name="content" />
+      <text class="inputTitle">签名：</text>
+      <canvas canvas-id="signCanvas" class="canvas" disable-scroll="false" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" />
+      <button type="primary" formType="submit" class='btnSubmit' disabled="{{disabled}}" loading="{{loading}}"> 提交 </button>
+      <button type="default" class="btnClear" formType="reset"> 重签 </button>
+    </view>
+  </form>
+</view>

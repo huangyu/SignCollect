@@ -1,0 +1,48 @@
+/**index.wxss**/
+.inputHint {
+  text-align: center;
+  width: 90%;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  color: red;
+  font-size:30rpx;
+}
+
+.form {
+  width: 100%;
+}
+
+.inputTitle {
+  width: 85%;
+  font-size: 40rpx;
+}
+
+.inputText {
+  background: white;
+  width: 80%;
+  padding: 18rpx;
+  height: 40rpx;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  font-size: 40rpx;
+  border: 1px solid black;
+  color: black
+}
+
+.canvas {
+  width: 85%;
+  height: 535rpx;
+  background: white;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  border:1rpx solid black;
+}
+
+.btnSubmit {
+  width: 86%;
+  margin-bottom: 15rpx;
+}
+
+.btnClear {
+  width: 86%;
+}
