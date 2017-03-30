@@ -13,8 +13,8 @@ Page({
   // 提交按钮事件
   submit: function (e) {
     var no = e.detail.value.no
-    var content = e.detail.value.content
-    var name = no + " - " + content + ".png"
+    var username = e.detail.value.content
+    var name = no + " - " + username + ".png"
 
     this.setData({
       disabled: !this.data.disabled
