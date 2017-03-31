@@ -6,6 +6,9 @@
 
 由于项目需要，事先采集客户的电子签名，用于在Word文档中制作电子签章。大概花了一天多的时间制作本小程序，也熟悉一下小程序的开发流程。
 
+目前项目已上线，修改Bmob.initialize("", "")填入自己的Bmob信息，后台增加Photo表，加入url,name字段即可测试。Bomb接入小程序教程：
+http://docs.bmob.cn/data/wechatApp/a_faststart/doc/index.html
+
 ![](https://github.com/huangyu0522/SignCollect/blob/master/%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 总体思路：
